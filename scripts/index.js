@@ -6,7 +6,7 @@ myImage.onclick = function () {
   let src = this.getAttribute("src");
 
   if (src === "images/firefox.png") {
-    this.setAttribute("src", "images/edge.png");
+    this.setAttribute("src", "images/firefox-1.png");
   } else {
     this.setAttribute("src", "images/firefox.png");
   }
