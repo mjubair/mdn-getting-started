@@ -5,7 +5,7 @@ let myButton = document.querySelector("button");
 myImage.onclick = function () {
   let src = this.getAttribute("src");
 
-  if (src === "/images/firefox.png") {
+  if (src === "images/firefox.png") {
     this.setAttribute("src", "images/edge.png");
   } else {
     this.setAttribute("src", "images/firefox.png");
